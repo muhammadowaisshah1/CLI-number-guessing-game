@@ -1,0 +1,25 @@
+{
+  "name": "@muhammadowaisshah/number-guessing-game",
+    "version": "1.1.3",
+  "description": "This is A Number Guessing Game",
+  "main": "guessing.js",
+  "type":"module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin":"guessing.js",
+    "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Muhammad Owais Shah",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "inquirer": "^9.2.16"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.11.30"
+  }
+}
